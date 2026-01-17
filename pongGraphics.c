@@ -75,8 +75,8 @@ int main() {
         }
 
         BeginDrawing();
-        DrawRectangle(x, y, CELL, CELL, RED);
         ClearBackground(WHITE);
+        DrawRectangle(x, y, CELL, CELL, RED);
 
         DrawRectangle(0, paddle_L, paddleWidth, paddleHeight, BLACK);
         DrawRectangle(screenWidth - paddleWidth, paddle_R, paddleWidth, paddleHeight, BLACK);
