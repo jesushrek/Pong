@@ -98,8 +98,7 @@ int main()
 
             x = WIDTH / 2;
             y = HEIGHT / 2;
-
-            dx = 1;
+            
             dy = (dx > 0)? -1 : 1;
         }
 
